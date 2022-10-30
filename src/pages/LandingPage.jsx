@@ -22,8 +22,8 @@ function Landingpage() {
                     </div>
                 </div>
             </div>
-            <div className="Background hidden md:block h-screen w-[50%] bg-main bg-cover bg-no-repeat "></div>{" "}
-            <div className="h-screen md:hidden">
+            <div className="Background hidden lg:block h-screen w-[50%] bg-main bg-cover bg-no-repeat "></div>{" "}
+            <div className="h-screen lg:hidden">
                 <img src="../images/logoZ.png" alt="logo" className="w-[200%]"/>
             </div>
         </div>
