@@ -9,7 +9,7 @@ function NavbarMobile() {
 
     return (
         <div className="md:hidden">
-            <div className="w-full relative text-5xl flex overflow-auto items-center justify-center rounded-full w-20 h-20 m-5 bg-color-10 ring-0 ring-color-50 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md md:hidden">
+            <div className="w-full relative text-5xl flex overflow-auto items-center justify-center rounded-full w-20 h-20 m-5 bg-transparent ring-0 ring-color-50 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md md:hidden">
                 {showNav ? (
                     <BiX onClick={() => setShowNav(!showNav)} className="" />
                 ) : (
