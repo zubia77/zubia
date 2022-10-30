@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 function Footer() {
     return (
-        <div className="fixed bottom-0 flex justify-between md:text-4xl text-color-10 w-full px-2">
+        <div className="fixed bottom-0 flex justify-between md:text-4xl text-color-40 w-full px-2">
             <div className="flex gap-2">
                 <a
                     className="github flex items-end  py-4"
@@ -47,12 +47,8 @@ function Footer() {
             >
 
     </div> */}
-            <div className="copyrights flex justify-end items-center text-sm">
-                <img
-                    className="logo w-1/12"
-                    src="../../images/logoZubiRemoveBg.png"
-                    width="50px"
-                />
+            <div className="copyrights flex justify-end items-center text-xl gap-1 font-style3">
+     Zubia
                 <FaRegCopyright />
                 2022
             </div>

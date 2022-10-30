@@ -45,6 +45,7 @@ module.exports = {
             backgroundImage: {
                 'main': "url('/images/logoZ.png')",
                 'aboutMe': "url('/images/zubiRemovebg.png')",
+                'contact': "url('/images/imgportfolio2.png')",
             },
             boxShadow: {
                 outer: "-2px -2px 24px 0px rgba(92,83,92,1)",
