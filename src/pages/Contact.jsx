@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 import ContactPopup from "../components/ContactPopup";
 import emailjs from "emailjs-com";
+import NavbarMobile from "../components/NavbarMobile"
 
 function Contact() {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,8 @@ function Contact() {
     return (
         <div className="w-screen flex justify-between bg-color-10">
             <div className="text-color-20">
-                <Navbar className="" />{" "}
+                <Navbar />
+                <NavbarMobile />
                 <div className="flex flex-col justify-center items-center shrink">
                     <h1 className="px-20 py-10 text-3xl text-color-20 font-style1 ">
                         Ich freue mich von dir zu hören!

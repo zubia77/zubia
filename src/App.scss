@@ -66,7 +66,7 @@
       @media only screen and (min-width: 375px) {
         @keyframes typing {
             from { visibility: hidden; width: 0 }
-            to { visibility: visible; width: 50% }
+            to { visibility: visible; width: 100% }
           }
         
     
@@ -75,13 +75,13 @@
       @media only screen and (min-width: 425px) {
         @keyframes typing {
             from { visibility: hidden; width: 0 }
-            to { visibility: visible; width: 32% }
+            to { visibility: visible; width: 100% }
           }
       }
       @media only screen and (min-width: 768px) {
         @keyframes typing {
             from { visibility: hidden; width: 0 }
-            to { visibility: visible; width: 75% }
+            to { visibility: visible; width: 100% }
           }
           
           .active {
@@ -485,6 +485,11 @@
 .Background {
     box-shadow: 0 0 50px 50px #133b5c inset;
     border-radius: 25%;
+}
+.shadowGlasmorphic {
+    box-shadow: 2px 3px 11px 10px rgba(240,229,229,0.75);
+-webkit-box-shadow: 2px 3px 11px 10px rgba(240,229,229,0.75);
+-moz-box-shadow: 2px 3px 11px 10px rgba(240,229,229,0.75);
 }
     
     

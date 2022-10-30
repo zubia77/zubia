@@ -7,14 +7,14 @@ import { FaRegCopyright } from "react-icons/fa";
 function Footer() {
     return (
         <div className="fixed bottom-0 flex justify-between md:text-4xl text-color-40 w-full px-2">
-            <div className="flex gap-2">
+            <div className="flex gap-2 text-3xl">
                 <a
                     className="github flex items-end  py-4"
                     href="https://github.com/zubia77"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <FaGithub />
+                    <FaGithub className=""/>
                 </a>
                 <a
                     className="linkedIn flex items-end  py-4"

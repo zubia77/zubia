@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import NavbarMobile from "../components/NavbarMobile"
 
 function Projects() {
     return (
         <div className="w-screen bg-color-20 text-color-10">
       
-                <Navbar className="" />
+                <Navbar />
+                <NavbarMobile />
           
             <div className="bg-color-20">
                 <div className="main w-screen">
