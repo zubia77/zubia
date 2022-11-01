@@ -46,6 +46,14 @@ module.exports = {
                 'main': "url('/images/logoZ.png')",
                 'aboutMe': "url('/images/zubiRemovebg.png')",
                 'contact': "url('/images/imgportfolio2.png')",
+                'luftmasche': "url('/images/zubisLuftmasche.png')",
+                'deutschify': "url('/images/deutschifySite.png')",
+                'bmi': "url('/images/bmi.png')",
+                'derDieDas': "url('/images/derDieDas.png')",
+                'mathenerds': "url('/images/mathenerds.png')",
+                'sticky': "url('/images/sticky.png')",
+                'indianBride': "url('/images/theindianbride.png')",
+
             },
             boxShadow: {
                 outer: "-2px -2px 24px 0px rgba(92,83,92,1)",
