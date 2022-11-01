@@ -34,25 +34,25 @@ function Contact() {
     }
 
     return (
-        <div className="w-screen flex justify-between bg-color-10">
-            <div className="text-color-20">
+        <div className="w-screen">
+            <div className="h-screen text-color-20 flex flex-col  bg-color-10">
                 <Navbar />
                 <NavbarMobile />
-                <div className="flex flex-col justify-center items-center shrink">
-                    <h1 className="px-20 py-10 text-3xl text-color-20 font-style1 ">
+                <div className="w-[100vw] flex flex-col justify-center items-center shrink">
+                    <h1 className="px-10 text-xl text-color-20 font-style1 md:text-3xl">
                         Ich freue mich von dir zu hören!
                     </h1>
                     <div className="m-6">
                 <form
                     onSubmit={sendEmail}
-                    className="bg-gradient-to-b from-color-50 to-color-30 border-8 border-color-40 p-8 flex justify-center rounded-2xl shadow-outer"
+                    className="w-[80vw] lg:w-[60vw] xl:w-[45vw] bg-gradient-to-b from-color-50 to-color-30 border-8 border-color-40 py-8 flex justify-center rounded-2xl shadow-outer"
                 >
-                    <div className="">
-                        <div className="m-6 ">
+                    <div className="flex flex-col items-center">
+                        <div className="">
                             <input
                                 type="text"
                                 required
-                              className="w-96 h-10 p-4 rounded-full bg-color-30 border-4 border-color-10  placeholder:text-color-20  outline-none"
+                              className="w-72 md:w-96 h-10 p-4 rounded-full bg-color-30 border-4 border-color-10  placeholder:text-color-20  outline-none"
                                 placeholder="Name..."
                                 name="from_name"
                             />
@@ -61,7 +61,7 @@ function Contact() {
                             <input
                                 type="email"
                                 required
-                                className="w-96 h-10 p-4 rounded-full bg-color-30 border-4 border-color-10 placeholder:text-color-20  outline-none"
+                                className="w-72 md:w-96 h-10 p-4 rounded-full bg-color-30 border-4 border-color-10 placeholder:text-color-20  outline-none"
                                 placeholder="Email Adresse..."
                                 name="reply_to"
                             />
@@ -70,7 +70,7 @@ function Contact() {
                             <textarea
                                 type="text"
                                 required
-                                className="w-96 h-60 p-4 rounded-2xl bg-color-30 border-4 border-color-10 text-color-50 placeholder:text-color-20  outline-none"
+                                className="w-72 md:w-96  h-60 p-4 rounded-2xl bg-color-30 border-4 border-color-10 text-color-50 placeholder:text-color-20  outline-none"
                                 name="message"
                                 id=""
                                 cols={3}
@@ -81,7 +81,7 @@ function Contact() {
                         <div className="m-6 relative">
                             <input
                                 type="submit"
-                                className="submitBtn w-96 h-10 p-2 rounded-full bg-color-10 text-color-20 border-4 border-color-40"
+                                className="submitBtn w-72 h-10 p-2 rounded-full bg-color-10 text-color-20 border-4 border-color-40"
                                 value="absenden"
                             />
                             <div className="absolute bottom-40">
@@ -92,7 +92,7 @@ function Contact() {
                                                 <b className="text-3xl">
                                                     Danke für deine Nachricht!
                                                 </b>
-                                                <p className="text-2xl mt-10">
+                                                <p className="text-2xl mt-4">
                                                     Ich werde mich schnellstmöglich bei dir melden.
                                                 </p>
                                             </>
@@ -108,7 +108,7 @@ function Contact() {
                 </div>
             </div>
 
-            <div className="Background h-screen w-[50%] bg-main bg-contain bg-no-repeat"></div>
+        
         </div>
     );
 }

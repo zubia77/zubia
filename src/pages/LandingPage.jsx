@@ -3,12 +3,12 @@ import Navbar from "../components/Navbar";
 import NavbarMobile from "../components/NavbarMobile";
 function Landingpage() {
     return (
-        <div className="h-screen lg:h-[110vh]  w-screen flex flex-col bg-color-10 text-color-20">
+        <div className="h-screen w-screen xl:h-[100vh] flex flex-col bg-color-10 text-color-20">
             <Navbar />
             <NavbarMobile />
-       <div className="w-screen xl:flex xl:flex-row-reverse">
-                <div className="h-full bg-main bg-contain xl:bg-cover bg-no-repeat -mt-28 ml-32 md:flex md:bg-right-top lg:mt-0 xl:w-[50vw]"></div>
-                <div className="h-[50vh] xl:w-[50vw] xl:h-[100vh] font-style1 flex flex-col items-center justify-start xl:justify-center">
+       <div className="w-screen  xl:flex xl:flex-row-reverse">
+                <div className="bg-main bg-contain  bg-no-repeat -mt-28 ml-32 md:flex md:bg-right-top lg:mt-20 xl:w-[40vw] xl:mr-20"></div>
+                <div className="h-[50vh] xl:w-[48vw] xl:h-[80vh] font-style1 flex flex-col items-center justify-start xl:justify-center">
                     <h2 className="greeting text-center text-4xl xl:text-7xl pb-20">
                         Hi I'm
                     </h2>
