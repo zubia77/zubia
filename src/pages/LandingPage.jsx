@@ -7,7 +7,7 @@ function Landingpage() {
             <Navbar />
             <NavbarMobile />
        <div className="w-screen  xl:flex xl:flex-row-reverse">
-                <div className="bg-main bg-contain  bg-no-repeat -mt-28 ml-32 md:flex md:bg-right-top lg:mt-20 xl:w-[40vw] xl:mr-20"></div>
+                <div className="h-[50vh] bg-main bg-contain  bg-no-repeat -mt-28 ml-32 md:flex md:bg-right-top lg:mt-20 xl:w-[40vw] xl:mr-20"></div>
                 <div className="h-[50vh] xl:w-[48vw] xl:h-[80vh] font-style1 flex flex-col items-center justify-start xl:justify-center">
                     <h2 className="greeting text-center text-4xl xl:text-7xl pb-20">
                         Hi I'm
