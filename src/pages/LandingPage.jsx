@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import NavbarMobile from "../components/NavbarMobile";
 function Landingpage() {
     return (
-        <div className="h-screen w-screen  flex flex-col bg-color-10 text-color-20">
+        <div className="w-screen  flex flex-col bg-color-10 text-color-20">
             <Navbar />
             <NavbarMobile />
             <div className="w-screen h-screen md:flex md:flex-row-reverse">
@@ -20,20 +20,21 @@ function Landingpage() {
                             A creative Frontend Developer{" "}
                         </h3>
                     </div>{" "}
-                    
-                </div>
-            </div><div className="-mt-72 flex justify-center text-4xl font-style16">
-                        <h1>
+                    <div className="flex justify-end items-center font-style16 m-4 mt-20 w-screen">
+                        <h1 className="text-3xl md:text-4xl mb-20 text-center">
                             Pleasure in the job puts perfection in the work.
                         </h1>
-                        <h3><br/>
-                            <i className="text-2xl">Aristoteles</i>
+                        <h3>
+                            <br />
+                            <i className="md:text-2xl">Aristoteles</i>
                         </h3>
                         {/* <h1>I do not seek. I find</h1>
                         <h3>
                             <i>Pablo Picasso</i>
                         </h3> */}
                     </div>
+                </div>
+            </div>
         </div>
     );
 }
