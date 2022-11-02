@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
     return (
     
-        <div className="hidden lg:block text-4xl  font-style1 ">
+        <div className="hidden lg:block text-4xl  font-style16">
             <nav className="p-4" id="oben">
                 <NavLink to="/home" className="px-8">
                    Home

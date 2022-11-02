@@ -38,9 +38,9 @@ function Contact() {
             <div className="h-screen text-color-20 flex flex-col  bg-color-10">
                 <Navbar />
                 <NavbarMobile />
-                <div className="w-[100vw] flex flex-col justify-center items-center shrink">
-                    <h1 className="px-10 text-xl text-color-20 font-style1 md:text-3xl">
-                        Please get in touch or leave a feedback!
+                <div className="w-[100vw] mt-20 flex flex-col justify-center items-center shrink">
+                    <h1 className="px-10 text-xl text-color-20 font-style10 md:text-5xl">
+                        Please get in touch!
                     </h1>
                     <div className="m-6">
                 <form
@@ -53,7 +53,7 @@ function Contact() {
                                 type="text"
                                 required
                               className="w-72 md:w-96 h-10 p-4 rounded-full bg-color-30 border-4 border-color-10  placeholder:text-color-20  outline-none"
-                                placeholder="Name..."
+                                placeholder="name..."
                                 name="from_name"
                             />
                         </div>
@@ -62,7 +62,7 @@ function Contact() {
                                 type="email"
                                 required
                                 className="w-72 md:w-96 h-10 p-4 rounded-full bg-color-30 border-4 border-color-10 placeholder:text-color-20  outline-none"
-                                placeholder="Email Adresse..."
+                                placeholder="emailadress..."
                                 name="reply_to"
                             />
                         </div>
@@ -75,25 +75,25 @@ function Contact() {
                                 id=""
                                 cols={3}
                                 rows={10}
-                                placeholder="Deine Nachricht..."
+                                placeholder="your message..."
                             ></textarea>
                         </div>
                         <div className="m-6 relative">
                             <input
                                 type="submit"
                                 className="submitBtn w-72 h-10 p-2 rounded-full bg-color-10 text-color-20 border-4 border-color-40"
-                                value="absenden"
+                                value="submit"
                             />
                             <div className="absolute bottom-40">
                                 {isOpen && (
                                     <ContactPopup
                                         content={
                                             <>
-                                                <b className="text-3xl">
-                                                    Danke für deine Nachricht!
+                                                <b className="text-3xl font-style16">
+                                                    Thank You for your message!
                                                 </b>
-                                                <p className="text-2xl mt-4">
-                                                    Ich werde mich schnellstmöglich bei dir melden.
+                                                <p className="text-2xl mt-4 font-style16">
+                                                    I will reply soon.
                                                 </p>
                                             </>
                                         }
