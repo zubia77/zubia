@@ -15,7 +15,7 @@ function Landingpage() {
                     <h1 className="name text-center pb-20 text-4xl md:text-7xl xl:text-9xl">
                         Zubi
                     </h1>
-                    <div className="w-max lg:w-[65%] xl:w-[42%]">
+                    <div className="w-max lg:w-[300px] xl:w-[360px]">
                         <h3 className="profession text-center text-3xl font-style2">
                             A Frontend Developer{" "}
                         </h3>
