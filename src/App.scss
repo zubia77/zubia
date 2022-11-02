@@ -78,7 +78,7 @@
         }
     }
 
-    @media only screen and (min-width: 375px) {
+    @media only screen and (min-width: 290px) {
         @keyframes typing {
             from {
                 visibility: hidden;
@@ -128,7 +128,7 @@
             }
             to {
                 visibility: visible;
-                width: 55%;
+                width: 100%;
             }
         }
     }

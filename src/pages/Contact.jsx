@@ -40,7 +40,7 @@ function Contact() {
                 <NavbarMobile />
                 <div className="w-[100vw] flex flex-col justify-center items-center shrink">
                     <h1 className="px-10 text-xl text-color-20 font-style1 md:text-3xl">
-                        Ich freue mich von dir zu hören!
+                        Please get in touch or leave a feedback!
                     </h1>
                     <div className="m-6">
                 <form
