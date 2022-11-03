@@ -32,14 +32,14 @@ function Footer() {
                 >
                     <FaXing />
                 </a>
-                <a
+                {/* <a
                     className="whatsapp flex items-end  py-4"
                     href="https://wa.me/4917670172303"
                     target="_blank"
                     rel=" noopener noreferrer"
                 >
                     <FaWhatsapp />
-                </a>
+                </a> */}
             </div>
             {/* <div className="top">
     <a  href="#oben"
