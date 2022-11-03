@@ -9,10 +9,10 @@ function Landingpage() {
             <div className="w-screen h-screen md:flex md:flex-row-reverse">
                 <div className="h-[50vh] bg-main bg-contain  bg-no-repeat -mt-28 ml-32 md:flex md:bg-right-top md:mt-20 md:w-[40vw] md:mr-20"></div>
                 <div className="h-[50vh] w-[100vw] md:w-[48vw] md:h-[80vh] font-style1 flex flex-col items-center justify-start  md:justify-center">
-                    <h2 className="greeting text-center text-4xl md:text-7xl pb-20 font-style10">
+                    <h2 className="greeting text-center text-4xl md:text-7xl pb-10 font-style10">
                         Hi I'm
                     </h2>
-                    <h1 className="name text-center pb-20 text-6xl md:text-7xl md:text-9xl">
+                    <h1 className="name text-center pb-10 text-6xl md:text-7xl md:text-9xl">
                         Zubi
                     </h1>
                     <div className="">
