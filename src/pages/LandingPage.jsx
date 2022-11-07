@@ -16,7 +16,7 @@ function Landingpage() {
                         Zubi
                     </h1>
                     <div className="">
-                        <h3 className="profession text-center text-xl md:text-2xl font-style16">
+                        <h3 className="profession text-center text-xl md:text-2xl font-style3">
                             A creative Frontend Developer{" "}
                         </h3>
                     </div>{" "}
