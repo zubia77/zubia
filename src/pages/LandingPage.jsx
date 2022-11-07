@@ -9,7 +9,7 @@ function Landingpage() {
             <div className="h-screen md:flex md:flex-row-reverse">
                 <div className="h-[40vh] bg-main bg-contain bg-no-repeat -mt-28 ml-32 md:flex md:bg-right-top md:mt-20 md:w-[40vw] md:mr-20"></div>
                 <div className="h-[50vh] md:w-[48vw] md:h-[80vh] flex flex-col items-center md:justify-center">
-                    <h2 className="greeting text-center text-4xl md:text-7xl pb-10 font-style16">
+                    <h2 className="greeting text-center text-4xl md:text-7xl pb-10 font-style3">
                         Hi I'm
                     </h2>
                     <h1 className="name text-center pb-10 text-6xl md:text-7xl md:text-9xl">
@@ -22,7 +22,7 @@ function Landingpage() {
                     </div>{" "}
                 </div>{" "}
             </div>{" "}
-            <div className="h-[35vh] flex flex-col justify-start items-center font-style16 m-4 mb-20 -mt-96 md:pt-40">
+            <div className="h-[35vh] flex flex-col justify-start items-center font-style3 m-4 mb-20 -mt-96 md:pt-40">
                 <h1 className="text-3xl md:text-4xl text-center">
                     Pleasure in the job puts perfection in the work.
                 </h1>
