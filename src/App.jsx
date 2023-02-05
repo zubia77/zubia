@@ -5,6 +5,8 @@ import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LandingPage from "./pages/LandingPage";
+import Construction from "./pages/Construction ";
+
 import Footer from "./components/Footer";
 
 function App() {
